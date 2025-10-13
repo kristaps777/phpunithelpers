@@ -22,7 +22,7 @@
     "minimum-stability": "stable",
     "require": {
         "thecodingmachine/safe": "^3.3",
-        "illuminate/collections": "^12.33"
+        "illuminate/collections": "*",
     },
     "require-dev": {
         "phpunit/phpunit": "^12.4"
