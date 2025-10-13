@@ -1,0 +1,30 @@
+{
+    "name": "kristapsv/phpunithelpers",
+    "description": "Helpers for PHPUnit testing framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kristapsv\\Phpunithelpers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kristapsv\\Phpunithelpers\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "di.kristapsv",
+            "email": "kristaps.vecvagars@di.lv"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "thecodingmachine/safe": "^3.3",
+        "illuminate/collections": "^12.33"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.4"
+    }
+}
