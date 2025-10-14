@@ -3,6 +3,7 @@
     "description": "Helpers for PHPUnit testing framework",
     "type": "library",
     "license": "MIT",
+    "keywords": ["dev"],
     "autoload": {
         "psr-4": {
             "Kristapsv\\Phpunithelpers\\": "src/"
