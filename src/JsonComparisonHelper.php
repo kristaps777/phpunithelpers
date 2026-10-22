@@ -22,6 +22,8 @@ class JsonComparisonHelper
         if (count($result) > 0) {
             $message = "JSON comparison failed:\n\n" . implode("\n", $result);
             Assert::fail($message);
+        } else {
+            Assert::assertCount(0, $result);
         }
     }
 

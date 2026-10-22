@@ -188,8 +188,6 @@ class JsonComparisonHelperTest extends TestCase
 
         // Should not throw
         JsonComparisonHelper::assertJsonMatches($data, $data);
-
-        $this->assertTrue(true); // If we get here, test passed
     }
 
     /**
